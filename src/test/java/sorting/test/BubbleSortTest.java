@@ -11,7 +11,7 @@ import org.junit.jupiter.api.Test;
 import sorting.AbstractSorting;
 import sorting.simpleSorting.BubbleSort;
 
-public class StudentTestSorting {
+public class BubbleSortTest {
 
 	private Integer[] vetorTamPar;
 	private Integer[] vetorTamImpar;
@@ -99,6 +99,30 @@ public class StudentTestSorting {
 	@Test
 	public void testSort05() {
 		genericTest(vetorValoresRepetidos);
+	}
+
+	@Test 
+	public void testOrdenaParteDoArray(){
+		implementation.sort(this.vetorTamImpar, 0, 3);
+		Integer[] result = Arrays.copyOf(vetorTamImpar, 4);
+		Integer[] expected = {6, 7, 32, 41};
+		assertArrayEquals(expected, result);
+	}
+
+	@Test 
+	public void testOrdenaMeioDoArray(){
+		implementation.sort(this.vetorTamImpar, 2, 6);
+		Integer[] result = Arrays.copyOfRange(vetorTamImpar, 2, 7);
+		Integer[] expected = {4, 7, 26, 32, 37};
+		assertArrayEquals(expected, result);
+	}
+
+	@Test 
+	public void testOrdenaFinalDoArray(){
+		implementation.sort(this.vetorTamImpar, 5, 10);
+		Integer[] result = Arrays.copyOfRange(vetorTamImpar, 5, 11);
+		Integer[] expected = {4, 11, 18, 36, 37, 49};
+		assertArrayEquals(expected, result);
 	}
 
 	// MÉTODOS QUE OS ALUNOS PODEM CRIAR
