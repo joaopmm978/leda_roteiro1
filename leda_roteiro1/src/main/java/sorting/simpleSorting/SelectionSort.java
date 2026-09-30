@@ -15,7 +15,7 @@ public class SelectionSort<T extends Comparable<T>> extends AbstractSorting<T> {
 		// selecionamos o menor eai trocamos com a posicao inicial,
 		// em seguida, começamos de leftindex + 1 selecionando novamente,
 		// trocamos com a posicao inicial + 1.
-		if(leftIndex > 0 && rightIndex <= array.length){
+		if(leftIndex >= 0 && rightIndex <= array.length){
 			while(leftIndex < rightIndex){
 			int idxmenor = leftIndex;
 			for(int i = leftIndex + 1; i < rightIndex; i++){
