@@ -20,8 +20,8 @@ public class SelectionSort<T extends Comparable<T>> extends AbstractSorting<T> {
 						idxmenor = i;
 					}
 				}
-			swap(array, leftIndex, idxmenor);
-			leftIndex++;
+				swap(array, leftIndex, idxmenor);
+				leftIndex++;
 			}
 		
 		}
