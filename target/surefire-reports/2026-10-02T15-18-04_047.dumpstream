@@ -1,0 +1,5 @@
+# Created at 2026-10-02T15:18:06.996
+Boot Manifest-JAR contains absolute paths in classpath 'D:\CC\LEDA\leda_roteiro1\leda_roteiro1\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+

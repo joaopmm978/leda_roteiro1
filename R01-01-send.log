@@ -97,3 +97,33 @@
   <level>FINE</level>
   <message>File 20250018950-JOAO PEDRO MINA MEDEIROS.zip was received. It was sent by JOAO PEDRO MINA MEDEIROS from IP 192.168.0.121 at 01-10-2026 16*09*12</message>
 </record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-10-01T17:49:49.315-0300</date>
+  <logger>JOAO PEDRO MINA MEDEIROS</logger>
+  <level>FINE</level>
+  <message>File 20250018950-JOAO PEDRO MINA MEDEIROS.zip was received. It was sent by JOAO PEDRO MINA MEDEIROS from IP 192.168.0.121 at 01-10-2026 17*49*49</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-10-02T15:18:11.225-0300</date>
+  <logger>JOAO PEDRO MINA MEDEIROS</logger>
+  <level>FINE</level>
+  <message>File 20250018950-JOAO PEDRO MINA MEDEIROS.zip was received. It was sent by JOAO PEDRO MINA MEDEIROS from IP 192.168.0.121 at 02-10-2026 15*18*11</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2026-10-02T15:18:24.094-0300</date>
+  <logger>JOAO PEDRO MINA MEDEIROS</logger>
+  <level>FINE</level>
+  <message>File 20250018950-JOAO PEDRO MINA MEDEIROS.zip was received. It was sent by JOAO PEDRO MINA MEDEIROS from IP 192.168.0.121 at 02-10-2026 15*18*24</message>
+</record>
